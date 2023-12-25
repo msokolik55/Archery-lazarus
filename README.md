@@ -1,13 +1,45 @@
-# Archery-lazarus
- 
-## Description
-Game developed in Lazarus (Free Pascal) with built-in libraries Graph and Wincrt.
+# Arcade Game
 
-## Control
-Any key - shoot
+This Pascal program features a simple arcade game with multiple functionalities, including a menu system, high-score tracking, and an engaging gameplay experience. The game consists of the following main components:
 
-## Game process
-At the beginning, you are situated in the main menu. By pressing the first button, you start the game. You shoot by pressing any letter on your keyboard.
-If you miss a target, your game ends up.
-Points for hitting the target are 1, 3, 10.
-After the game, 5 best scores are saved on attached file. They can be seen by clicking on the second button in the menu.
+## Menu System
+
+Players navigate through a menu with three options:
+
+1. **New Game**: Start a new round of the arcade game.
+2. **High Scores**: View the top scores achieved in previous games.
+3. **Quit**: Exit the game.
+
+## Gameplay
+
+### Terc Shooting
+
+The main gameplay involves shooting at a target called "terc" that moves vertically across the screen. Players aim to hit the terc in specific zones to earn points. The speed of the terc increases as the game progresses.
+
+### Controls
+
+-   **Arrow Keys**: Control the cursor's vertical movement.
+-   **Spacebar**: Shoot at the moving terc.
+
+### Scoring
+
+-   Hitting the terc in the central zone earns 10 points.
+-   Hitting the terc in the middle zone earns 3 points.
+-   Hitting the terc in the outer zone earns 1 point.
+-   Missing the terc results in game over.
+
+## High Scores
+
+The program keeps track of the top 5 high scores achieved in the game. The scores are displayed in descending order.
+
+## Screenshots
+
+![Game play](screenshot.png)
+
+## Technical Details
+
+-   **Language Used:** Pascal
+-   **Dependencies:** Graph and WinCRT units for graphical interface
+-   **Implementation:** The game uses a graphical interface to provide an immersive gaming experience with dynamic cursor movement and shooting mechanics.
+
+Feel free to explore the game, set high scores, and enjoy the arcade experience!
